@@ -1,20 +1,13 @@
 package chapter2;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Conditional;
-import org.springframework.context.annotation.Scope;
-import org.springframework.context.annotation.ScopedProxyMode;
-import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 /**
  * Created by lican on 17/9/30.
  */
 @ComponentScan
 public class CDPlayer {
-    private CompactDisc cd;
+    /*private CompactDisc cd;
 
     @Autowired
     public CDPlayer(CompactDisc cd) {
@@ -45,7 +38,7 @@ public class CDPlayer {
 
     @Component
     @Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
-    public Shopping shop(){}
+    public Shopping shop(){}*/
 
 
 }
